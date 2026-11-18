@@ -1,0 +1,6 @@
+# versions tested together on 2026-11-16
+streamlink==8.6.3
+faster-whisper==1.2.1
+ctranslate2==4.9.0
+numpy==2.5.5
+opencv-python==5.0.0.93

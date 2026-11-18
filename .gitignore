@@ -1,0 +1,42 @@
+# rebuilt by setup on each PC
+.venv/
+venv/
+env/
+tools/
+__pycache__/
+*.py[cod]
+
+# recordings and clips (huge, and other people's content)
+output/
+*.mp4
+*.ts
+*.mkv
+*.srt
+*.chat.txt
+*.csv
+
+# Whisper / model caches
+models/
+.cache/
+
+# personal / generated
+facecams.json
+*.zip
+
+# secrets, just in case (never commit these)
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+cookies*.txt
+
+# logs
+*.log
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
